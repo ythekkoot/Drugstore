@@ -1,0 +1,81 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.header {
+  width: 100%;
+  background-color: #009aff;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  color: #3a3a3a; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.drug-list {
+  width: 80%;
+  margin-top: 75px;
+  margin-left: 75px;
+}
+
+.drug-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 150px;
+  margin-right: 15px;
+  justify-content: center;
+  height: 250px;
+  width: 30%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  text-align: left;
+  border-top: 1px solid #dee2e6;
+}
+
+table th {
+  font-weight: 600;
+  background-color: #f6f6f6;
+  color: black;
+}
+
+table td {
+  border-top: none;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.actionButton {
+  padding: 8px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
