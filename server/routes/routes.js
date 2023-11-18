@@ -11,9 +11,9 @@ const drugStore = [
 ];
 const db = new Database(drugStore);
 
-router.get('/', (req, res) => {
-   res.send("Hello..!");
- })
+// router.get('/', (req, res) => {
+//    res.send("Hello..!");
+//  })
 
 router.get('/drugStore', (req, res) => {
    res.status(200).json({data : drugStore});
